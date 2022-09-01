@@ -5,11 +5,17 @@ public class FizzBuzz {
     String buzz = "Buzz";
     String fizzBuzz = "FizzBuzz";
     String whizz = "Whizz";
+    String fizzWhizz = "FizzWhizz";
     public String countOff(int order) {
         if (order % 3 == 0 && order % 5 == 0){
 
             return fizzBuzz;
         }
+        if (order % 3 == 0 && order % 7 == 0) {
+
+            return fizzWhizz;
+        }
+
         if (order % 3 == 0) {
             return fizz;
         }
@@ -21,6 +27,8 @@ public class FizzBuzz {
 
             return whizz;
         }
+
+
 
         return String.valueOf(order);
     }
