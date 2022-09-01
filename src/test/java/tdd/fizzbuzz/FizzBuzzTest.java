@@ -66,5 +66,15 @@ void should_return_whizz_when_countOff_given_number_7(){
 //then
     assertEquals(expected, actual);
 }
+@Test
+void should_return_FizzWhizz_when_countOff_given_number_21(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String expected = "FizzWhizz";
+//when
+        String actual = fizzBuzz.countOff(7);
+//then
+        assertEquals(expected, actual);
+    }
+
 
 }

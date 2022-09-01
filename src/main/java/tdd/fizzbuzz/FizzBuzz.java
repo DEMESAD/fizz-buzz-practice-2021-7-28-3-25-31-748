@@ -4,6 +4,7 @@ public class FizzBuzz {
     String fizz = "Fizz";
     String buzz = "Buzz";
     String fizzBuzz = "FizzBuzz";
+    String whizz = "Whizz";
     public String countOff(int order) {
         if (order % 3 == 0 && order % 5 == 0){
 
@@ -18,7 +19,7 @@ public class FizzBuzz {
         }
         if (order % 7 == 0) {
 
-            return "Whizz";
+            return whizz;
         }
 
         return String.valueOf(order);
