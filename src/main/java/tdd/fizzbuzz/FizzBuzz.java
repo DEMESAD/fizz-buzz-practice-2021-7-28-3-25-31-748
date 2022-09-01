@@ -8,6 +8,10 @@ public class FizzBuzz {
     String fizzWhizz = "FizzWhizz";
     String buzzWhizz = "BuzzWhizz";
     public String countOff(int order) {
+        if (order % 3 == 0 && order % 5 == 0 && order % 7 == 00){
+
+            return "FizzBuzzWhizz";
+        }
         if (order % 3 == 0 && order % 5 == 0){
 
             return fizzBuzz;
