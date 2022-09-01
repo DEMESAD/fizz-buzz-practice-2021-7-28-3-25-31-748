@@ -7,10 +7,12 @@ public class FizzBuzz {
     String whizz = "Whizz";
     String fizzWhizz = "FizzWhizz";
     String buzzWhizz = "BuzzWhizz";
+    String fizzBuzzWhizz = "FizzBuzzWhizz";
     public String countOff(int order) {
         if (order % 3 == 0 && order % 5 == 0 && order % 7 == 00){
 
-            return "FizzBuzzWhizz";
+
+            return fizzBuzzWhizz;
         }
         if (order % 3 == 0 && order % 5 == 0){
 
