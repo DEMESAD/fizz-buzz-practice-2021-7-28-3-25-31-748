@@ -18,4 +18,20 @@ void should_return_1_when_count_off_given_number1(){
     assertEquals(expected, actual);
 }
 
+
+@Test
+void should_return_fizz_when_countOff_given_number_3(){
+//given
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    String expected = "Fizz";
+
+//when
+    String actual = fizzBuzz.countOff(3);
+
+
+//then
+    assertEquals(expected, actual);
+
+}
+
 }
