@@ -8,12 +8,19 @@ public class FizzBuzz {
         if (order % 3 == 0 && order % 5 == 0){
 
             return fizzBuzz;
-        }else if (order % 3 == 0) {
+        }
+        if (order % 3 == 0) {
             return fizz;
-        } else if (order % 5 == 0) {
+        }
+        if (order % 5 == 0) {
 
             return buzz;
         }
+        if (order % 7 == 0) {
+
+            return "Whizz";
+        }
+
         return String.valueOf(order);
     }
 }
